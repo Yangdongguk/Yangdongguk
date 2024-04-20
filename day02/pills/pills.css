@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  gap: 5px;
+}
+
+.button {
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+}
+
+.selcted {
+  background-color: rgb(58, 143, 255);
+  color: white;
+}

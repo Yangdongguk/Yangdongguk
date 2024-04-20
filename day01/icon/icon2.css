@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  color: black;
+  background-color: white;
+  /* text-align: center; */
+  font-size: 20px;
+  font-weight: bold;
+  padding: 100px 0px 100px 0px;
+  border: 7px solid black;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallText {
+  font-size: 20px;
+}
+
+.largeText {
+  font-size: 100px;
+}

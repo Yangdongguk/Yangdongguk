@@ -1,0 +1,64 @@
+.color {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.pallate {
+  display: flex;
+  /* 자식들이 차지하는 공간을 균등하게 나누는 css */
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.a {
+  background-color: #eccc68;
+}
+.b {
+  background-color: #ff7f50;
+}
+.c {
+  background-color: #ff6b81;
+}
+.d {
+  background-color: #a4b0be;
+}
+.e {
+  background-color: #57606f;
+}
+.f {
+  background-color: #eccc68;
+}
+.g {
+  background-color: #ff7f50;
+}
+.h {
+  background-color: #ffa502;
+}
+.i {
+  background-color: #ff6348;
+}
+.j {
+  background-color: #ff4757;
+}
+.i {
+  background-color: #747d8c;
+}
+.q {
+  background-color: #2f3542;
+}
+.f {
+  background-color: #ffa502;
+}
+.t {
+  background-color: #ff6348;
+}
+.o {
+  background-color: #ff4757;
+}

@@ -1,0 +1,44 @@
+.comment {
+  color: #1181ff;
+}
+.legister {
+  color: #1181ff;
+  width: 80px;
+  text-align: center;
+  border: 1px solid #1181ff;
+  border-radius: 5px;
+  padding: 5px 0px 5px 0px;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fruit {
+  font-size: 30px;
+}
+.fruit > .apple {
+  color: red;
+}
+.fruit > .banana {
+  color: yellow;
+}
+.fruit > .orange {
+  color: orange;
+}
+
+body {
+  width: 100vw;
+}
+
+.box {
+  width: 200px;
+  background-color: red;
+}
+
+.box > .mini {
+  width: 50%;
+  background-color: blue;
+}
