@@ -1,0 +1,51 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  height: 900px;
+  background-image: url(/day03/sns/shuttergames-9BE8hiqvUM4-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(1.07);
+  transition: height 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.val1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 20px;
+  width: 300px;
+  height: 400px;
+  font-size: 20px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 30px 10px 30px;
+}
+
+.icon {
+  width: 400px;
+  height: 100px;
+}
+
+.val2 {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

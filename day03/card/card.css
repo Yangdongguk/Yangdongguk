@@ -1,0 +1,54 @@
+.cards {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(/day03/card/connie-garrad-VGtMvqHDpFw-unsplash.jpg);
+  background-size: cover;
+  padding: 15px 20px;
+  filter: brightness(1.07);
+  transition: height 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.container:hover {
+  height: 700px;
+  filter: brightness(0.95);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.text {
+  @font-face {
+    font-family: "WavvePADO-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2")
+      format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 20px;
+  text-decoration: underline;
+  border-bottom: 1px solid white;
+  padding-bottom: 0px;
+  width: fit-content;
+}
+
+.title {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  font-family: "Nanum Gothic Coding", monospace;
+}

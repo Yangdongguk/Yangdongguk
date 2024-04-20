@@ -1,0 +1,91 @@
+.container {
+  width: 330px;
+  height: 600px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 25px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  gap: 30px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  /* 사진 위치 css */
+  object-position: 50% center;
+}
+
+.introduce {
+  text-align: center;
+  font-weight: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "WavvePADO-Regular";
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.button:hover {
+  font-size: 20px;
+  background-color: #fff4fc;
+}
+
+.button {
+  font-family: "WavvePADO-Regular";
+  text-align: center;
+  /* width: 100%; */
+  border-radius: 30px;
+  padding: 20px;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  gap: 20px;
+}
+
+.icons:hover {
+  font-size: 30px;
+}
+
+.icons > li {
+  transition: all 0.5s ease;
+}
+.facebook:hover {
+  color: blue;
+  font-size: 40px;
+}
+.instar:hover {
+  color: purple;
+  font-size: 40px;
+}
+.twitter:hover {
+  color: skyblue;
+  font-size: 40px;
+}

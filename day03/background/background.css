@@ -1,0 +1,10 @@
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  background-image: url(/day03/card/webaliser-_TPTXZd9mOo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 14px;
+}

@@ -1,0 +1,55 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.up {
+  display: flex;
+}
+.down {
+  display: flex;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.green > span {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.blue > span {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.orange > span {
+  /* position: static; 디폴트값*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.purple > span {
+  position: sticky;
+  top: 100px;
+}
+
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
