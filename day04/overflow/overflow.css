@@ -1,0 +1,21 @@
+.container {
+  overflow: scroll;
+  gap: 20px;
+  width: 500px;
+  height: 300px;
+}
+
+.container::webkit-scroll {
+}
+
+.box {
+  width: 200px;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.wrapper {
+  display: flex;
+  width: 700px;
+  height: 100%;
+}

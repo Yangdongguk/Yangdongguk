@@ -1,0 +1,22 @@
+.scroll {
+  width: 700px;
+  height: 200px;
+  overflow: scroll;
+  gap: 10px;
+}
+
+.profile_box {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+.image > img {
+  width: 100px;
+  border-radius: 50%;
+}
