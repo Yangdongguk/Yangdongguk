@@ -1,0 +1,109 @@
+header {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  padding-top: 20px;
+}
+
+nav {
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.button {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+  padding: 20px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+  nav {
+    max-width: 600px;
+  }
+  nav > .buttons {
+    display: none;
+  }
+}
+
+.pallet {
+  display: flex;
+  /* 자식들이 균등하게 자리 차지하는 css */
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.FFC312 {
+  background-color: #ffc312;
+}
+.C4E538 {
+  background-color: #c4e538;
+}
+.e12CBC4 {
+  background-color: #12cbc4;
+}
+.FDA7DF {
+  background-color: #fda7df;
+}
+.ED4C67 {
+  background-color: #ed4c67;
+}
+.a {
+  background-color: #f79f1f;
+}
+.b {
+  background-color: #a3cb38;
+}
+.c {
+  background-color: #1289a7;
+}
+.d {
+  background-color: #d980fa;
+}
+.e {
+  background-color: #b53471;
+}
+
+.pallet {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 1024px) {
+  .pallet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pallet {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

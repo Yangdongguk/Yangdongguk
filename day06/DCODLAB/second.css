@@ -1,0 +1,52 @@
+.second {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--width-max);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.container > h4 {
+  color: var(--color-gray);
+  font-weight: bold;
+}
+
+.recentNewCard_container {
+  display: flex;
+  gap: 30px;
+}
+
+.recentNewCard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.recentNewCard > .image-box {
+  width: 240px;
+  height: 120px;
+}
+
+.recentNewCard > .image-box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recentNewCard > span {
+  color: var(--color-gray);
+}
+
+.recentNewCard > p {
+  color: var(--color-gray);
+  line-height: 1.3;
+}

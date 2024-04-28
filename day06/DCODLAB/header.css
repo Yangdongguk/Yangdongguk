@@ -1,0 +1,30 @@
+header {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  padding-top: 20px;
+}
+
+nav {
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  cursor: pointer;
+}
+
+.button {
+  font-size: 17px;
+  font-weight: bold;
+}

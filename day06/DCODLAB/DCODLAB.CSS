@@ -1,0 +1,42 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.first > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
+  opacity: 0.9;
+}
+.first > .contents {
+  position: absolute;
+  /* 섹션안에 있는 컨텐츠 센터링 CSS */
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: var(--width-max);
+  font-family: var(--font-family);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.first > .contents > h1 {
+  font-size: var(--font-mega);
+}
+
+.first > .contents > span {
+  font-size: 16px;
+}
+
+.button {
+  width: fit-content;
+  border: var(--border-button-white);
+  padding: 5px 100px;
+}
